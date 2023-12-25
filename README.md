@@ -38,7 +38,7 @@ Ici vous sera présenté l'extension MicroPico qui permet de développer en micr
 
 ![extension](images/extension.png)
 * Ouvrez le dossier de votre projet avec **File > Open Folder**
-* Appuyez sur CTRL+SHIFT+P puis rechercher la commande **"Configure Project"**
+* Appuyez sur CTRL+SHIFT+P puis rechercher la commande **"Configure project"**
 
 ![configure](images/configure.png)
-*
+* Il
