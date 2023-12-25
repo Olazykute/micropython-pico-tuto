@@ -41,4 +41,7 @@ Ici vous sera présenté l'extension MicroPico qui permet de développer en micr
 * Appuyez sur CTRL+SHIFT+P puis rechercher la commande **"Configure project"**
 
 ![configure](images/configure.png)
-* Il
+* Connectez votre pico à l'ordinateur et au bout de quelques secondes vous devriez avoir un bandeau similaire en bas de l'écran.
+
+![bandeau](images/bandeau.png)
+Votre pico est maintenant connectée et vous pouvez commencer à programmer !
