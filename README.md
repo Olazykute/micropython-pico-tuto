@@ -9,7 +9,7 @@ Nous allons utiliser Thonny, un IDE simple et facile d'utilisation pour micropyt
 Nous allons maintenant préparer le microcontrôleur pour pouvoir éxécuter du code directement dessus.
 * Télécharger le fichier uf2 présent dans ce repo ou sur le [site officiel](https://www.raspberrypi.com/documentation/microcontrollers/micropython.html)
 * Brancher la pico en usb en maintenant le bouton **BOOT**. La pico devrait être reconnue en tant que stockage usb.
-* Glisser le fichier uf2 dans cet espace de stockage usb.
+* Glisser le fichier uf2 dans cet espace de stockage usb. Vous venez de "flash" le microcontrôleur.\
 L'espace de stockage usb généré par la pico devrait maintenant avoir disparu.
 
 ### Setup de l'IDE
@@ -26,6 +26,7 @@ Pour utiliser votre pico, il faut la sélectionner comme interpréteur python da
 Il se peut que à ce moment là il y ait déjà un code pré-implanté dans la pico mais si ce n'est pas le cas :
 * Clic droit sur la fenêtre d'arborescence à gauche
 * Créez un nouveau fichier avec **New File** nommé "main.py" (le .py est essentiel pour préciser à Thonny quel type de fichier vous créez)
+
 Vous pouvez désormais programmer avec micropython sur votre Rasberry pi pico !
 
 ### Blink
