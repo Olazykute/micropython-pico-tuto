@@ -47,4 +47,4 @@ Ici vous sera présentée l'extension MicroPico qui permet de développer en mic
 Votre pico est maintenant connectée et vous pouvez commencer à programmer !
 
 Pour transférer le code à la pico il suffit ensuite de réutiliser CTRL+SHIFT+P pour accéder aux commandes puis **"Upload project to Pico"**\
-![upload](images/upload.png)\
+![upload](images/upload.png)
