@@ -5,7 +5,7 @@ Nous allons utiliser Thonny, un IDE simple et facile d'utilisation pour micropyt
 * Télécharger Thonny : https://github.com/thonny/thonny (prendre la dernière release)
 * Installez Thonny
 
-## Setup du microcontrôleur RP2040
+### Setup du microcontrôleur RP2040
 Nous allons maintenant préparer le microcontrôleur pour pouvoir éxécuter du code directement dessus.
 * Télécharger le fichier uf2 présent dans ce repo ou sur le [site officiel](https://www.raspberrypi.com/documentation/microcontrollers/micropython.html)
 * Brancher la pico en usb en maintenant le bouton **BOOT**. La pico devrait être reconnue en tant que stockage usb.
@@ -28,5 +28,17 @@ Il se peut que à ce moment là il y ait déjà un code pré-implanté dans la p
 * Créez un nouveau fichier avec **New File** nommé "main.py" (le .py est essentiel pour préciser à Thonny quel type de fichier vous créez)
 Vous pouvez désormais programmer avec micropython sur votre Rasberry pi pico !
 
-## Blink
+### Blink
 Vous pouvez retrouver un exemple de code permettant de faire clignoter la led rgb adressable du RP2040 zero dans ce repo.
+## VSCode et MicroPico
+Pour ceux qui voudraient utiliser VSCode pour leur programmation micropython, il existe des extensions qui le permettent.
+Ici vous sera présenté l'extension MicroPico qui permet de développer en micropython sous VSCode.
+
+* Installez l'extension MicroPico via le gestionnaire d'extensions VSCode.
+
+![extension](images/extension.png)
+* Ouvrez le dossier de votre projet avec **File > Open Folder**
+* Appuyez sur CTRL+SHIFT+P puis rechercher la commande **"Configure Project"**
+
+![configure](images/configure.png)
+*
