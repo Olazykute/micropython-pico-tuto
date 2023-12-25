@@ -30,7 +30,8 @@ Il se peut que à ce moment là il y ait déjà un code pré-implanté dans la p
 Vous pouvez désormais programmer avec micropython sur votre Rasberry pi pico !
 
 ### Blink
-Vous pouvez retrouver un exemple de code permettant de faire clignoter la led rgb adressable du RP2040 zero dans ce repo.
+Vous pouvez retrouver un exemple de code permettant de faire clignoter la led rgb adressable du RP2040 zero dans ce repo sous le nom "basic_blink.py"
+
 ## VSCode et MicroPico
 Pour ceux qui voudraient utiliser VSCode pour leur programmation micropython, il existe des extensions qui le permettent.\
 Ici vous sera présentée l'extension MicroPico qui permet de développer en micropython sous VSCode.
@@ -44,7 +45,8 @@ Ici vous sera présentée l'extension MicroPico qui permet de développer en mic
 ![configure](images/configure.png)
 * Connectez votre pico à l'ordinateur et au bout de quelques secondes vous devriez avoir un bandeau similaire en bas de l'écran.
 
-![bandeau](images/bandeau.png)\
+![bandeau](images/bandeau.png)
+
 Votre pico est maintenant connectée et vous pouvez commencer à programmer !
 
 Pour transférer le code à la pico il suffit ensuite de réutiliser CTRL+SHIFT+P pour accéder aux commandes puis **"Upload project to Pico"**\
