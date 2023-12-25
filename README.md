@@ -18,4 +18,15 @@ Pour l'instant vous voyez seulement les fichiers de la racine utilisateur mais c
 
 Actuellement Thonny est configuré en tant qu'IDE classique donc vous pouvez écrire du code et il s'éxécutera mais pas sur votre microcontrôleur.
 Pour utiliser votre pico, il faut la sélectionner comme interpréteur python dans Thonny.
-Pour ce faire, cliquez sur **Local Python 3** dans le coin inférieur gauche de la fenêtre de l'IDE.
+* Cliquer sur **Local Python 3** dans le coin inférieur gauche de la fenêtre de l'IDE.
+* Sélectionner l'interpréteur micropython.\
+![interpreter](images/Thonny.png)
+* Vous avez maintenant accès à votre pico via Thonny!
+
+Il se peut que à ce moment là il y ait déjà un code pré-implanté dans la pico mais si ce n'est pas le cas :
+* Clic droit sur la fenêtre d'arborescence à gauche
+* Créez un nouveau fichier avec **New File** nommé "main.py" (le .py est essentiel pour préciser à Thonny quel type de fichier vous créez)
+Vous pouvez désormais programmer avec micropython sur votre Rasberry pi pico !
+
+## Blink
+Vous pouvez retrouver un exemple de code permettant de faire clignoter la led rgb adressable du RP2040 zero dans ce repo.
