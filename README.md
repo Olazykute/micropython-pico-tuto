@@ -49,5 +49,7 @@ Ici vous sera présentée l'extension MicroPico qui permet de développer en mic
 
 Votre pico est maintenant connectée et vous pouvez commencer à programmer !
 
+Pour visualiser facilement l'arborescence de fichiers à l'intérieur de la pico vous pouvez cliquer sur "Toggle-Pico-W-FS" sur le bandeau en bas de l'écran.
+
 Pour transférer le code à la pico il suffit ensuite de réutiliser CTRL+SHIFT+P pour accéder aux commandes puis **"Upload project to Pico"**\
 ![upload](images/upload.png)
